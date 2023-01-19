@@ -7,6 +7,8 @@ then
 	nice -n 10 python3 ./app/parse_freelance_habr.py
 	nice -n 10 python3 ./app/parse_weblancer.py
 	nice -n 10 python3 ./app/parse_freelancehunt.py
+	nice -n 10 python3 ./app/parse_freelance_ru.py
+
 #else
 #	echo "Already running $already_running jobs"
 fi
