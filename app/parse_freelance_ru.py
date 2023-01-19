@@ -13,6 +13,7 @@ from sqlalchemy.orm import sessionmaker
 Session = sessionmaker(bind=engine)
 session = Session()
 
+# TODO
 dev_url = 'https://freelance.ru/project/search/pro?c=&c%5B%5D=4&q=&m=or&e=&a=0&a=1&v=0&f=&t=&o=0&o=1&b='
 webdev_url = 'https://freelance.ru/project/search/pro?c=&c%5B%5D=116&q=&m=or&e=&a=0&a=1&v=0&f=&t=&o=0&o=1&b='
 
